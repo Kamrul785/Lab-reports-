@@ -93,12 +93,12 @@ void updateResources(int n, int r, vector<pair<int, vector<int>>> req, int a[][N
 int main()
 {
     int n, r;
-    // cout << "Enter the number of pes and resources: ";
+    cout << "Enter the number of pes and resources: ";
     cin >> n >> r;
 
     int a[N][N], max_need[N][N], need[N][N], avail[N];
 
-    // cout << "Enter the p a matrix:\n";
+    cout << "Enter the p a matrix:\n";
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < r; j++)
@@ -107,7 +107,7 @@ int main()
         }
     }
 
-    // cout << "Enter the Maximum Need matrix:\n";
+    cout << "Enter the Maximum Need matrix:\n";
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < r; j++)
@@ -116,7 +116,7 @@ int main()
         }
     }
 
-    // cout << "Enter the Available resources:\n";
+    cout << "Enter the Available resources:\n";
     for (int i = 0; i < r; i++)
     {
         cin >> avail[i];
@@ -124,9 +124,9 @@ int main()
     calculateNeed(n, r, max_need, a, need);
     vector<int> ans;
     int q;
-    // cout << "Enter the request Number :" << endl;
+    cout << "Enter the request Number :" << endl;
     cin >> q;
-    // cout << "Enter p No and request ";
+    cout << "Enter p No and request ";
     vector<pair<int, vector<int>>> req;
     while (q--)
     {
