@@ -1,0 +1,13 @@
+Process	Burst Time	Waiting Time	Turn Around Time
+P1			3			7				10
+P2			1			2				3
+P3			5			10				15
+P4			2			5				7
+P5			4			10				14
+Average Waiting Time: 6.8
+Average Turn Around Time: 9.8
+
+Gantt chart:
+....................................................
+|0|p1|2|p2|3|p3|5|p4|7|p5|9|p1|10|p3|12|p5|14|p3|15|
+....................................................

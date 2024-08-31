@@ -1,0 +1,15 @@
+Enter the Number of Process : 4
+Enter the Burst Time of the Process : 5 3 2 7 
+
+Process	Burst Time	Turn Around Time	Waiting Time
+	1		5			 5					0
+	2		3			 8					5
+	3		2			 10					8
+	4		7			 17					10
+
+Average Turn Around Time : 10
+Average Wating time : 5.75
+
+.........................
+|0|P1|5|P2|8|P3|10|P4|17|
+.........................

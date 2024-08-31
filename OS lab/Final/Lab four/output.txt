@@ -1,0 +1,2 @@
+Request for P1 is granted
+Safe Sequence: P1 -> P3 -> P4 -> P0 -> P2

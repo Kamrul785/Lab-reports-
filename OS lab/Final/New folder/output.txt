@@ -1,0 +1,2 @@
+Number of page hits: 7
+Number of page faults: 8
